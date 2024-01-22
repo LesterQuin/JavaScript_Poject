@@ -15,6 +15,6 @@ function convert(){
         temp = (temp -32) * (5/9);
         result.textContent = temp.toFixed(1) + "°"
     }else{
-        result.textContent = "Select a Unit"
+        result.textContent = "Select a Unit after it convert"
     }
 }
